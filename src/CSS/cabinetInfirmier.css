@@ -1,0 +1,28 @@
+/* the colors that will be used in this project are : 
+    * #F5F5F5 white smoke
+    * e1e5f2 light blue
+    * bfdbf7 sky blue
+    * 1f7a8c marin blue
+    * 022b3a dark blue
+*/
+html{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+.greetingInfirmier{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.patientNumber{
+    text-align: center;
+    font-size: 2rem;
+}

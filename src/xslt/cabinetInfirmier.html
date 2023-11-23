@@ -1,0 +1,149 @@
+<html xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" xmlns:ci="http://www.ujf-grenoble.fr/l3miage/medical">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/cabinetInfirmier.css">
+        <script type="text/javascript">
+                    function openFacture(prenom, nom, actes) {
+                    var width  = 500;
+                    var height = 300;
+                    if(window.innerWidth) {
+                    var left = (window.innerWidth-width)/2;
+                    var top = (window.innerHeight-height)/2;
+                    }
+                    else {
+                    var left = (document.body.clientWidth-width)/2;
+                    var top = (document.body.clientHeight-height)/2;
+                    }
+                    var factureWindow = window.open('','facture','menubar=yes, scrollbars=yes, top='+top+', left='+left+', width='+width+', height='+height+'');
+                    factureText = "Facture pour : \n * " + prenom + " \n * " + nom + "\n * " + actes;
+                    factureWindow.document.write(factureText);
+                    }
+                </script>
+        <title>visite.xsl</title>
+    </head>
+    <body>
+        <h3 class="greetingInfirmier">Bonjour 
+                Sophie
+            ,</h3>
+        <p class="patientNumber">Aujourd'hui , vous avez 3 patients</p>
+        <h3>Liste de ses patients :</h3>
+        <br>
+                nom : 
+                Orouge 
+            
+                Elvire   
+            
+        <br>
+                adresse : 
+                    
+                
+                   Rond-Point de la Croix de Vie 
+                
+                    La Tronche
+                
+                    38700
+                
+        <br>
+                soins a effectuer :
+        
+            Pansement de br&ucirc;lure &eacute;tendue ou de plaie chimique ou thermique &eacute;tendue,
+            sur une surface sup&eacute;rieure &agrave; 5% de la surface corporelle.
+        
+        <br>
+        <button class="button" type="button" onclick="
+        openFacture(`
+                Orouge 
+            `,
+        `
+                Elvire   
+            `,
+        `
+            Pansement de br&ucirc;lure &eacute;tendue ou de plaie chimique ou thermique &eacute;tendue,
+            sur une surface sup&eacute;rieure &agrave; 5% de la surface corporelle.
+        `)
+    ">
+    facture
+</button>
+        <br>
+        <br>
+                nom : 
+                Pien
+            
+                Oscare
+            
+        <br>
+                adresse : 
+                
+                    rue Casimir Brenier
+                
+                    Grenoble
+                
+                    38000
+                
+        <br>
+                soins a effectuer :
+        
+            Inection intraveineuse directe isol&eacute;e.
+        
+            Injection intraveineuse directe en s&eacute;rie.
+        
+        <br>
+        <button class="button" type="button" onclick="
+        openFacture(`
+                Pien
+            `,
+        `
+                Oscare
+            `,
+        `
+            Inection intraveineuse directe isol&eacute;e.
+        `)
+    ">
+    facture
+</button>
+        <br>
+        <br>
+                nom : 
+                Kapo&euml;tla
+            
+                Xavier
+            
+        <br>
+                adresse : 
+                    25
+                
+                    rue des Martyrs
+                
+                    Grenoble
+                
+                    38042
+                
+        <br>
+                soins a effectuer :
+        
+            Injection d'un ou plusieurs allerg&egrave;nes, poursuivant un traitement
+            d'hyposensibilisation sp&eacute;cifique, selon le protocole &eacute;crit, y compris la
+            surveillance, la tenue du dossier de soins, la transmission des informations 
+            au m&eacute;decin prescripteur.
+        
+        <br>
+        <button class="button" type="button" onclick="
+        openFacture(`
+                Kapo&euml;tla
+            `,
+        `
+                Xavier
+            `,
+        `
+            Injection d'un ou plusieurs allerg&egrave;nes, poursuivant un traitement
+            d'hyposensibilisation sp&eacute;cifique, selon le protocole &eacute;crit, y compris la
+            surveillance, la tenue du dossier de soins, la transmission des informations 
+            au m&eacute;decin prescripteur.
+        `)
+    ">
+    facture
+</button>
+        <br>
+        <br>
+    </body>
+</html>

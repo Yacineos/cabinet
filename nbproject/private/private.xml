@@ -4,7 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/xsd/cabinetInfirmier.xsd</file>
-            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/xml/codesCourantsMG.xml</file>
+            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/xml/actes.xml</file>
+            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/CSS/cabinetInfirmier.css</file>
+            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/xslt/visite.xsl</file>
+            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/xslt/cabinetInfirmier.html</file>
+            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/src/xml/cabinetInfirmier.xml</file>
+            <file>file:/home/o/oukkaly/NetBeansProjects/cabinet/actes.xml</file>
         </group>
     </open-files>
 </project-private>
